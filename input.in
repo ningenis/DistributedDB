@@ -1,0 +1,58 @@
+@nodes
+5 #
+@@A
+Y Y 0.0025 #
+Mahasiswa #
+NIM Nama TglLahir KotaAsal IPK JumlahSKS #
+19960001 "Amin Badrun" 1-8-1990 Bandung 4.00 12 #
+19960002 "Cici Dadan" 12-7-1990 Bandung 3.11 9 #
+19960003 "Emi Fitria" 23-6-1990 Surabaya 3.00 5 #
+19960004 "Gilang Hamdan" 30-5-1990 Jakarta 0.00 2 #
+@@B
+Y Y 0.002 #
+MataKuliah #
+KodeMK NamaMK SKS Bidang #
+IF2031 "Algoritma dan Struktur Data" 3 Pemrograman #
+EL2091 "Sistem Dijital" 3 Elektronika #
+IF2132 "Basisdata" 3 Basisdata #
+KU1071 "Pengantar Teknologi Informasi A" 2 Pemrograman #
+@@C
+Y T 0.003 #
+MataKuliah #
+KodeMK NamaMK SKS Bidang #
+IF2031 "Algoritma dan Struktur Data" 3 Pemrograman #
+EL2091 "Sistem Dijital" 3 Elektronika #
+IF2132 "Basisdata" 3 Basisdata #
+KU1071 "Pengantar Teknologi Informasi A" 2 Pemrograman #
+PengambilanMK #
+NIM KodeMK Semester ThnAkademik Nilai #
+19960001 IF2031 1 2009-2010 A #
+19960001 EL2091 1 2009-2010 A #
+19960001 IF2132 2 2009-2010 A #
+19960001 KU1071 1 2008-2009 A #
+19960002 IF2031 1 2009-2010 B #
+19960002 EL2091 1 2009-2010 A #
+19960002 KU1071 1 2008-2009 C #
+19960003 IF2031 1 2009-2010 B #
+19960003 KU1071 1 2008-2009 B #
+19960004 KU1071 1 2008-2009 E #
+@@D
+Y Y 0.001 #
+Mahasiswa #
+NIM Nama TglLahir KotaAsal IPK JumlahSKS #
+19960005 "Iwan Jajang" 4-11-1990 Jakarta NULL NULL #
+MataKuliah #
+KodeMK NamaMK SKS Bidang #
+PengambilanMK #
+NIM KodeMK Semester ThnAkademik Nilai #
+@@E
+T Y 0.0 #
+@edges
+6 #
+A B 2.5 #
+A C 1.0 #
+B C 2.0 #
+C D 0.5 #
+B E 2.5 #
+C E 3.0 #
+@end
